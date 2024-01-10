@@ -3,7 +3,7 @@ import pyautogui
 #import de biblioteca de timer
 import  time
 
-pyautogui.PAUSE = 0.5
+pyautogui.PAUSE = 0.1
 
 #Apertar tecla win
 pyautogui.press("win")
@@ -27,7 +27,7 @@ pyautogui.press("tab")
 pyautogui.write("issoéumasenha")
 pyautogui.press("tab")
 pyautogui.press("enter")
-time.sleep(1.5)
+# time.sleep()
 
 #percorrer linhas da tabela
 import pandas as pd
